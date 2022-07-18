@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 400 22px "DM Sans";
+    font-style: normal;
+}
+
+body {
+    margin: auto;
+    width: 1120px;
+    background: #E5E5E5;
+    height: 7000px;
+}
+
+.img-logo {
+    background-image: url(../img/hs..svg);
+    width: 64px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.main-left-side h1 {
+    font: 500 60px "DM Sans";
+    width: 450px;
+}
+
+.arrow {
+    background-image: url(../img/↓.svg);
+    width: 33px;
+    height: 38px;
+}
+
+.main-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.main p {
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.project-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-img {
+    background-image: url(../img/Thumbnail.svg);
+    width: 640px;
+    height: 350px;
+}
+.projects{
+    margin-top: 120px;
+}
+.container-project {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link {
+    border-bottom: 2px solid black;
+    width: 290px;
+
+}
