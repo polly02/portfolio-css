@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 400 22px "DM Sans";
+    font-style: normal;
+}
+
+body {
+    margin: auto;
+    width: 1120px;
+    background: #E5E5E5;
+    height: 1650px;
+}
+
+.img-logo {
+    background-image: url(../img/hs..svg);
+    width: 64px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 705px;
+    width: 1120px;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+.container-personality {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 560px;
+}
+
+.personality-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.personality-left-side h1 {
+    padding-top: 40px;
+    font: 500 60px "DM Sans";
+    /* width: 450px; */
+}
+
+.personality-left-side p {
+    font-size: 24px;
+    color: #606060;
+    padding-top: 20px;
+}
+
+.personality-left-side p:not(:last-child) {
+    padding-top: 60px;
+}
+
+.personality-img {
+    background-image: url(../img/Thumbnail.svg);
+    background-size: cover;
+    height: 506px;
+    width: 405px;
+}
+
+.hard-skills,
+.soft-skills {
+    display: flex;
+}
+
+.skills h2 {
+    text-decoration-line: underline;
+    font-weight: 500;
+    width: 124px;
+    /* border-bottom: 2px solid black; */
+}
+
+.skills p {
+    font-size: 20px;
+    width: 436px;
+    padding-left: 63px;
+}
+
+.soft-skills {
+    padding-top: 109px;
+}
+
+.seperator {
+    background-color: #181717;
+    width: 1120px;
+    height: 2px;
+    margin-top: 100px;
+}
+
+.link {
+    display: flex;
+    font-size: 32px;
+    padding-top: 71px;
+}
+
+.link p {
+    padding-left: 190px;
+}
+
+.main-txt {
+    /* flex-direction: row;  */
+    display: inline;
+    width: 347px;
+}
+
+.arrow {
+    background-image: url(../img/↓\ \(1\).svg);
+    height: 21px;
+    width: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    font-weight: 500;
+}
+
+footer nav {
+    display: flex;
+    margin-right: 30px;
+}
+
+footer nav p:not(:last-child) {
+    margin-right: 30px;
+}
