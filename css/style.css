@@ -24,13 +24,16 @@ header nav {
 }
 
 header {
+     /* добавила цвет */
+     background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+     /* изенила на padding */
+     padding-top: 20px;
     position: fixed;
     top: 0;
-    left: 705px;
+    /* left: 705px; */
     width: 1120px;
 }
 
@@ -76,7 +79,6 @@ header nav p:not(:last-child) {
 
 .project-left-side p {
     padding-top: 40px;
-
 }
 
 .project-left-side p:not(:last-child) {
@@ -108,7 +110,7 @@ header nav p:not(:last-child) {
 }
 
 .seperator {
-    border: 1.5px solid #181717;
+    border: 2px solid #181717;
     margin-top: 106px;
 }
 

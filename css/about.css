@@ -9,7 +9,7 @@ body {
     margin: auto;
     width: 1120px;
     background: #E5E5E5;
-    height: 1650px;
+    /* height: 1650px; */
 }
 
 .img-logo {
@@ -24,13 +24,16 @@ header nav {
 }
 
 header {
+    /* добавила цвет */
+    background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    /* изенила на padding */
+    padding-top: 20px;
     position: fixed;
     top: 0;
-    left: 705px;
+    /* left: 705px; */
     width: 1120px;
 }
 
