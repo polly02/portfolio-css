@@ -11,6 +11,9 @@ body {
     background: #E5E5E5;
     height: 2115px;
 }
+a{
+    text-decoration: none;
+}
 
 .img-logo {
     background-image: url(../img/hs..svg);
@@ -21,6 +24,10 @@ body {
 
 header nav {
     display: flex;
+}
+
+header nav p{
+    color: #000000;
 }
 
 header {
@@ -34,7 +41,7 @@ header {
     width: 1120px;
 }
 
-header nav p:not(:last-child) {
+header nav a:not(:last-child) {
     margin-right: 30px;
 }
 
