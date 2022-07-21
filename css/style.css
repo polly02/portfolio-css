@@ -24,16 +24,13 @@ header nav {
 }
 
 header {
-     /* добавила цвет */
-     background-color: #E5E5E5;
+    background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-     /* изенила на padding */
-     padding-top: 20px;
+    padding-top: 20px;
     position: fixed;
     top: 0;
-    /* left: 705px; */
     width: 1120px;
 }
 
@@ -89,6 +86,10 @@ header nav p:not(:last-child) {
     font-weight: 500;
 }
 
+.color-gray{
+    color: #606060;
+}
+
 .project-img {
     background-image: url(../img/Thumbnail.svg);
     width: 640px;
@@ -120,6 +121,10 @@ footer {
     align-items: center;
     margin-top: 120px;
     font-weight: 500;
+}
+
+.color-blue{
+    color: #2429AF;
 }
 
 footer nav {

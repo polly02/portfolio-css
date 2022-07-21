@@ -9,7 +9,6 @@ body {
     margin: auto;
     width: 1120px;
     background: #E5E5E5;
-    /* height: 1650px; */
 }
 
 .img-logo {
@@ -24,16 +23,13 @@ header nav {
 }
 
 header {
-    /* добавила цвет */
     background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* изенила на padding */
     padding-top: 20px;
     position: fixed;
     top: 0;
-    /* left: 705px; */
     width: 1120px;
 }
 
@@ -58,7 +54,6 @@ header nav p:not(:last-child) {
 .personality-left-side h1 {
     padding-top: 40px;
     font: 500 60px "DM Sans";
-    /* width: 450px; */
 }
 
 .personality-left-side p {
@@ -87,7 +82,6 @@ header nav p:not(:last-child) {
     text-decoration-line: underline;
     font-weight: 500;
     width: 124px;
-    /* border-bottom: 2px solid black; */
 }
 
 .skills p {
@@ -118,7 +112,6 @@ header nav p:not(:last-child) {
 }
 
 .main-txt {
-    /* flex-direction: row;  */
     display: inline;
     width: 347px;
 }
@@ -127,6 +120,9 @@ header nav p:not(:last-child) {
     background-image: url(../img/↓\ \(1\).svg);
     height: 21px;
     width: 24px;
+    position: relative;
+    left: 220px;
+    top: -25px;
 }
 
 footer {
@@ -135,6 +131,10 @@ footer {
     align-items: center;
     margin-top: 120px;
     font-weight: 500;
+}
+
+.color-blue{
+    color: #2429AF;
 }
 
 footer nav {
