@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-header nav p{
+header nav p {
     color: #000000;
 }
 
@@ -14,7 +14,8 @@ body {
     width: 1120px;
     background: #E5E5E5;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -140,7 +141,7 @@ footer {
     font-weight: 500;
 }
 
-.color-blue{
+.color-blue {
     color: #2429AF;
 }
 
@@ -151,4 +152,60 @@ footer nav {
 
 footer nav p:not(:last-child) {
     margin-right: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        max-width: 750px;
+    }
+
+    body {
+        padding-left: 15px;
+    }
+
+    .container-personality {
+        flex-direction: column;
+        height: 970px;
+        align-content: space-between;
+        margin-top: 100px;
+    }
+
+    .personality-left-side p:not(:last-child) {
+        padding-top: 30px;
+    }
+
+    .hard-skills {
+        padding-top: 50px;
+    }
+
+    .soft-skills {
+        padding-top: 50px;
+    }
+
+    .seperator {
+        max-width: 750px;
+        margin-top: 50px;
+    }
+
+    .link {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .main-txt {
+        width: 100%;
+    }
+
+    .arrow {
+        left: 420px;
+    }
+
+    .link p {
+        padding-left: 0;
+    }
+
+    footer {
+        max-width: 750px;
+        margin-top: 40px;
+    }
 }
